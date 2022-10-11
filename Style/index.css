@@ -1,0 +1,18 @@
+.navbar {
+  max-width: 1600px;
+  padding: 10px;
+  background-color: aquamarine;
+}
+ul {
+  align-items: left;
+}
+
+.navcontent {
+  display: inline-block;
+  padding: 8px;
+}
+
+li {
+  font: 1rem "Fira Sans", sans-serif;
+  margin-bottom: 0.5rem;
+}
