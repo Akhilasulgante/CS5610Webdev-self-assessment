@@ -1,10 +1,12 @@
 .navbar {
+  max-height: 40px;
   max-width: 1600px;
-  padding: 10px;
   background-color: aquamarine;
 }
 ul {
   align-items: left;
+  /* padding-bottom: 5px; */
+  padding-top: 8px;
 }
 
 .navcontent {
@@ -15,4 +17,37 @@ ul {
 li {
   font: 1rem "Fira Sans", sans-serif;
   margin-bottom: 0.5rem;
+}
+
+footer {
+  max-height: 40px;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: #64b6db;
+  color: #fff;
+}
+
+.container {
+  height: 90vh;
+  margin: 2rem;
+  display: block;
+  /* grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr; */
+}
+.grid-row {
+  display: inline-block;
+}
+.cell {
+  color: black;
+  font-size: 3rem;
+  text-align: center;
+  padding: 4rem;
+}
+
+.cell-1 {
+  background: rgb(204, 160, 78);
+}
+.cell-2 {
+  background: rgb(218, 216, 210);
 }
